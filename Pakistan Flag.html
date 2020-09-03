@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pakistan Flag</title>
+	<style>
+		body{
+			background-color: silver;
+		}
+		.area{
+			width: 80%;
+			height: 600px;
+			background-color: #003F15;
+			position: relative;
+			margin: auto;
+			margin-top: 2.5%;
+		}
+		.area::after{
+			position: absolute;
+			content: "";
+			background-color: #ffffff;
+			width: 250px;
+			height: 600px;
+		}
+		.area::before{
+			content: "";
+			position: absolute;
+			width: 300px;
+			height: 300px;
+			background-color: transparent;
+			border-radius: 75%;
+			top: 100px;
+			left: 600px;
+			box-shadow: -50px 0px 0px 0px #ffffff;
+			transform: rotate(-50deg);
+		}
+		.star{
+			position: relative;
+			top: -400px;
+			left: 850px;
+			width: 0px;
+			height: 0px;
+			border-right: 50px solid transparent;
+			border-bottom: 35px solid #ffffff;
+			border-left: 50px solid transparent;
+			transform: rotate(0deg);
+			/*font-size: 5px;*/
+		}
+		.star:before{
+			position: absolute;
+			content: "";
+			top: 0px;
+			left: -48px;
+			width: 0px;
+			height: 0px;
+			border-right: 50px solid transparent;
+			border-bottom: 35px solid #ffffff;
+			border-left: 50px solid transparent;
+			transform: rotate(-70deg);
+			/*font-size: 5px;*/
+		}
+		.star:after{
+			position: absolute;
+			content: "";
+			top: 2px;
+			left: -51px;
+			width: 0px;
+			height: 0px;
+			border-right: 50px solid transparent;
+			border-bottom: 35px solid #ffffff;
+			border-left: 50px solid transparent;
+			transform: rotate(-145deg);
+			/*font-size: 5px;*/
+		}
+	</style>
+</head>
+<body>
+	<div class="area"></div>
+	<div class="star"></div>
+</body>
+</html>
