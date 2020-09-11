@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2A82C1;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 30px 15px 32px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #001933;
+}
+.logo{
+  padding: 0;
+  margin: 0px 25px;
+}
+
+.active {
+  background-color: #99CCFF;
+}
+
+.TopButton{
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 15px 0px 0px 400px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: #2A82C1;
+  border: 2px solid white;
+}
+
+.TopButton:hover{
+  background-color: #001933;
+}
+.slidebar{
+  height: 585px;
+  width: 100%;
+}
+.service{
+  width: 80%;
+  margin: 0 auto;
+  padding: 100px 0px;
+  height: 350px;
+}
+.s1{
+  display: flex;
+  justify-content: space-around;
+}
+
+.servicebutton{
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 25px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white;
+  border: 2px solid grey;
+  border-radius: 10%;
+}
+.servicebutton:hover{
+  background-color: #969ACD;
+}
